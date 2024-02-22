@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://i.pinimg.com/736x/69/68/1e/69681ef4639fa37d34c05f824a597cb3.jpg);
+  background-size: contain;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardDresseurContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  gap: 55px;
+}
+
+#cardDresseurContainer div {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  width: 320px;
+  background-color: #ff8c05;
+  height: 45vh;
+  border-radius: 8px;
+}
+
+#cardDresseurContainer button {
+  background-color: rgba(128, 0, 128, 0.752);
+  font-size: 0.8rem;
+  margin-top: 15px;
+  color: aliceblue;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 25px;
+  padding: 5px;
+  border: none;
+}
+
+
+#cardDresseurContainer button:hover {
+     background-color:#ff4238;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 25vh;
+  width: 10vw;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+form {
+  margin: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 33px;
+  border: 1 px solid black;
+}
+
+input {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+     border-radius: 2px;
+     border: 1px solid black;
+     border-radius: 6px;
+}
+
+input:hover {
+     background-color:#ff8c05;
+}
+
+.pokeListing {
+     color: rgb(0, 0, 0);
+     display: flex;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     gap: 45px;
+}
+
+.pokeListing li {
+     text-align: left;
+     font-size: 0.9rem;
+}
+
+.closeBtn {
+     
+     width: 65px;
+     height: 25px;
+    
+}
+
+#form {
+     background-color: rgb(255, 255, 255);
+     border-radius: 7px;
+     border: 2px solid black;
+}
+
